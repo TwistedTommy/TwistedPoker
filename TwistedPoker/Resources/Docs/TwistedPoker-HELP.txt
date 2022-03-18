@@ -1,0 +1,73 @@
+---------------------------------------------------------------
+Twisted Poker - Help version 20220317
+Copyright (c) 2016-2022 Twisted Poker - All Rights Reserved
+---------------------------------------------------------------
+
+[I] About
+[II] Buttons
+[III] Terms
+[IV] House Rules
+[V] Payout
+[VI] Contributing
+[VII] Contact
+[VIII] Disclaimers
+
+[I] About
+---------------------------------------------------------------
+Twisted Poker, or TP is The Original Twisted Poker. The object of the game is to have a poker hand of one pair or better. Playing poker is vital to life, making this software an essential tool for living. House rules apply.
+
+Twisted Poker uses your online account at the following database:
+Web: http://twistedtommy.mygamesonline.org
+
+Got no VChips and feeling blue? Don't worry. If you click the Title Label rapidly in succession, you will be rewarded with a Happy Ending.
+
+[II] Buttons
+---------------------------------------------------------------
+* Check Account Balance - Checks your online account balance.
+* Cash In - Exchanges the stored VCoins amount you want to exchange from your online account for VChips to use at the table.
+* Cash Out - Exchanges the VChips amount you want to exchange from the table for VCoins stored in your online account.
+* New Game - Starts a new game using your desired bet amount.
+* Deal - Deals new cards to replace any cards you didn't want to keep.
+* Save Settings - Saves the per user per version settings.
+
+[III] Terms
+---------------------------------------------------------------
+* VCoin - A fictional currency similar to real money. VCoins are stored in your online account.
+* VChip - A fictional currency similar to a poker chip. VChips are used to play at the table.
+* Bet Amount - The amount you want to bet.
+* Cash In/Out Amount - The amount you want to cash in or out.
+
+[IV] House Rules
+---------------------------------------------------------------
+* Single deck game play.
+
+[V] Payout
+---------------------------------------------------------------
+* Royal Flush 1000:1
+* Straight Flush 100:1
+* 4 Of A Kind 50:1
+* Full House 40:1
+* Flush 25:1
+* Straight 20:1
+* 3 Of A Kind 10:1
+* 2 Pair 5:1
+* 1 Pair 1:1
+
+[VI] Contributing
+---------------------------------------------------------------
+Let's work better together. We are looking to collaborate with like-minded people who want to contribute in any capacity. Collaboration is open to everyone and we need your help if you are a:
+
+* Developer
+* Graphic Artist
+* Linguist/Translator
+* Player
+* Tester
+
+[VII] Contact
+---------------------------------------------------------------
+Web: http://twistedtommy.mygamesonline.org
+GitHub: https://github.com/TwistedTommy/TwistedPoker
+
+[VIII] Disclaimers
+---------------------------------------------------------------
+This software may only be used and/or distributed in accordance with the license with which it is distributed.

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DBF595E-4B94-4E4E-BAD4-B69A6F6CBDEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TwistedPoker</RootNamespace>
+    <AssemblyName>TwistedPoker</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\TwistedPoker.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmTwistedPoker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTwistedPoker.Designer.cs">
+      <DependentUpon>FrmTwistedPoker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmTwistedPoker.resx">
+      <DependentUpon>FrmTwistedPoker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Docs\TwistedPoker-LICENSE.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Docs\TwistedPoker-HELP.txt" />
+    <Content Include="Resources\Images\10 Of Clubs.bmp" />
+    <Content Include="Resources\Images\10 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\10 Of Hearts.bmp" />
+    <Content Include="Resources\Images\10 Of Spades.bmp" />
+    <Content Include="Resources\Images\2 Of Clubs.bmp" />
+    <Content Include="Resources\Images\2 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\2 Of Hearts.bmp" />
+    <Content Include="Resources\Images\2 Of Spades.bmp" />
+    <Content Include="Resources\Images\3 Of Clubs.bmp" />
+    <Content Include="Resources\Images\3 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\3 Of Hearts.bmp" />
+    <Content Include="Resources\Images\3 Of Spades.bmp" />
+    <Content Include="Resources\Images\4 Of Clubs.bmp" />
+    <Content Include="Resources\Images\4 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\4 Of Hearts.bmp" />
+    <Content Include="Resources\Images\4 Of Spades.bmp" />
+    <Content Include="Resources\Images\5 Of Clubs.bmp" />
+    <Content Include="Resources\Images\5 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\5 Of Hearts.bmp" />
+    <Content Include="Resources\Images\5 Of Spades.bmp" />
+    <Content Include="Resources\Images\6 Of Clubs.bmp" />
+    <Content Include="Resources\Images\6 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\6 Of Hearts.bmp" />
+    <Content Include="Resources\Images\6 Of Spades.bmp" />
+    <Content Include="Resources\Images\7 Of Clubs.bmp" />
+    <Content Include="Resources\Images\7 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\7 Of Hearts.bmp" />
+    <Content Include="Resources\Images\7 Of Spades.bmp" />
+    <Content Include="Resources\Images\8 Of Clubs.bmp" />
+    <Content Include="Resources\Images\8 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\8 Of Hearts.bmp" />
+    <Content Include="Resources\Images\8 Of Spades.bmp" />
+    <Content Include="Resources\Images\9 Of Clubs.bmp" />
+    <Content Include="Resources\Images\9 Of Diamonds.bmp" />
+    <Content Include="Resources\Images\9 Of Hearts.bmp" />
+    <Content Include="Resources\Images\9 Of Spades.bmp" />
+    <Content Include="Resources\Images\Ace Of Clubs.bmp" />
+    <Content Include="Resources\Images\Ace Of Diamonds.bmp" />
+    <Content Include="Resources\Images\Ace Of Hearts.bmp" />
+    <Content Include="Resources\Images\Ace Of Spades.bmp" />
+    <Content Include="Resources\Images\hiddencard.bmp" />
+    <Content Include="Resources\Images\Jack Of Clubs.bmp" />
+    <Content Include="Resources\Images\Jack Of Diamonds.bmp" />
+    <Content Include="Resources\Images\Jack Of Hearts.bmp" />
+    <Content Include="Resources\Images\Jack Of Spades.bmp" />
+    <Content Include="Resources\Images\King Of Clubs.bmp" />
+    <Content Include="Resources\Images\King Of Diamonds.bmp" />
+    <Content Include="Resources\Images\King Of Hearts.bmp" />
+    <Content Include="Resources\Images\King Of Spades.bmp" />
+    <Content Include="Resources\Images\Queen Of Clubs.bmp" />
+    <Content Include="Resources\Images\Queen Of Diamonds.bmp" />
+    <Content Include="Resources\Images\Queen Of Hearts.bmp" />
+    <Content Include="Resources\Images\Queen Of Spades.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
