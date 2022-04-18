@@ -8,7 +8,8 @@ Let's work better together. We are looking to collaborate with like-minded peopl
 - Player
 - Tester
 ## Contact
+Web: [http://twistedtommy.mygamesonline.org](http://twistedtommy.mygamesonline.org "Web")  
 GitHub: [https://github.com/TwistedTommy/TwistedPoker](https://github.com/TwistedTommy/TwistedPoker "GitHub")  
 ## Disclaimer
 This software may only be used and/or distributed in accordance with the license with which it is distributed.
-###### Copyright (c) 2016-2022 Twisted Poker - All Rights Reserved v2022-03-17-00
+###### Copyright (c) 2016-2022 Twisted Poker - All Rights Reserved v2022-04-18-00
